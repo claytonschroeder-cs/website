@@ -1,24 +1,78 @@
-body {
-	background-color: WhiteSmoke;
-	color: Black;
-	font-family: 'Balsamiq Sans', cursive;
+/* First Comment */
+
+* {
+	font-size: 100%;
 }
+
+body {
+	background-color: lightgrey;
+	color: Black;
+	font-family: Helvetica, Arial;
+	font-size: 14px;
+}
+
+/* Heading styles */
 
 h1 {
 	color: Blue;
+	font-size: 36px;
+	text-align: left;
 }
 
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	font-family: 'Odibee Sans', Arial;
+}
+
+/* content font and link styles */
+
+p {
+	line-height: 1.5;
+}
+
+a:link,
+a:focus,
+a:active {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: grey;
+}
+
+header h1 {
+	text-align: center;
+}
+
+footer p {
+	font-size: 10px;
+	text-align: center;
+}
+
+/* Section style */
+
 header {
-	background-color: DimGrey;
-	color: White;
+	background-color: #EAEAEA;
 }
 
 section {
-	background-color: Purple;
-	color: White;
+	background-color: #EAEAEA;
 }
 
 footer {
-	background-color: Black;
-	color: White;
+	background-color: #333333;
+	color: #FFFFFF;
 }
