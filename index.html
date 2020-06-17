@@ -4,56 +4,108 @@
 	<title>My Website</title>
 	<meta charset="utf-8">
 
+	<!-- My styles -->
 	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
-
+	<!-- My imported Google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Font awsome icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<!-- I need to figure out what my title -->
+
 	<header>
-		<h1>My Updated Website</h1>
-		<h2>Heading 2</h2>
-		<h3>Heading 3</h3>
-		<h4>Heading 4</h4>
-		<h5>Heading 5</h5>
-		<h6>Heading 6</h6>
+		<h1 class="title">My Updated Website</h1>
+
+		<a href="https://www.facebook.com/clayton.schroeder.7" target="_blank" class="media-icon fa fa-facebook"></a>
+		<a href="#" class="media-icon fa fa-twitter"></a>
+
 		<p>this is a <a href="http://www.bing.com">paragraph</a> tag!</p>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 
 		<a href="#footer">Link to footer</a>
+		<a href="about.html">About</a>
 
 	</header>
 
-	<section>
+	<div class="banner">
+		<h1>Welcome to my Website</h1>
+		<p>This is my capstone project</p>
+	</div>
 
-		<a href="http://www.google.com" target="_blank">Google</a>
+	<div class="container">
+		<section class="block shadow">
 
-		<img src="images/beach.jpg" alt="Sandy beach" width="100%" height="200px" />
-		<img src="images/forest.jpg" alt="Foggy forest" width="100%" />
-		<img src="images/mountain.jpg" alt="Snowy mountain" width="100%" />
+			<h2>About Me</h2>
+			<p>Im a <em>paragraph</em> in <strong>section</strong> 1</p>
 
-		<h1>Section 1</h1>
-		<p>Im a <em>paragraph</em> in <strong>section</strong> 1</p>
+		</section>
 
-		<ul>
-			<li>Apple</li>
-			<li>Orange</li>
-			<li>Banana</li>
-		</ul>
-	</section>
+		<section id="portfolio" class="block shadow">
+			<h2>Portfolio</h2>
 
-	<!-- This is an ordered list -->
-	<section>
-		<h2>Favorite Color</h2>
-		<ol>
-			<li>Red</li>
-			<li>Blue</li>
-			<li>Green</li>
-		</ol>
-	</section>
+
+			<div class="gallery">
+
+				<div class="gallery-item">
+					<img src="images/beach-gallery.jpg" alt="Sandy beach"/>
+				</div>
+
+				<div class="gallery-item">
+					<img src="images/forest-gallery.jpg" alt="Foggy forest"/>
+				</div>
+
+				<div class="gallery-item">
+					<img src="images/mountain-gallery.jpg" alt="Snowy mountain"/>
+				</div>
+				<div class="gallery-item">
+					<img src="images/beach-gallery.jpg" alt="Sandy beach"/>
+				</div>
+				<div class="gallery-item">
+					<img src="images/forest-gallery.jpg" alt="Foggy forest"/>
+				</div>
+				<div class="gallery-item">
+					<img src="images/mountain-gallery.jpg" alt="Snowy mountain"/>
+				</div>
+			</div>
+
+
+		</section>
+
+		<section id="social-media" class="block shadow">
+			<h2>Social Media</h2>
+			<img src="images/forest.jpg" alt="Foggy forest"/>
+		</section>
+
+		<section id="fav-color" class="block shadow">
+			<h2>Favorite Color</h2>
+			<img src="images/mountain.jpg" alt="Snowy mountain"/>
+		</section>
+
+		<!-- This is an ordered list -->
+		<section id="strategy" class="block shadow">
+			<h2>Skills</h2>
+			<ol>
+				<li>
+					<h3>Red</h3>
+					<p>Red is my favorite color because it's bright and happy</p>
+				</li>
+				<li>Blue</li>
+				<li>Green</li>
+			</ol>
+
+			<ul>
+				<li>Apple</li>
+				<li>Orange</li>
+				<li>Banana</li>
+			</ul>
+
+
+		</section>
+	</div>
 
 	<footer id="footer">
-		<p>Website made by Clayton</p>
+		<p>Website made by Clayton.</p>
 	</footer>
 </body>
 </html>
